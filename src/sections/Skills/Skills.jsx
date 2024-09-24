@@ -5,27 +5,30 @@ import SkillList from '../../common/SkillList.jsx';
 function Skills() {
   return (
     <section id='skills' className={styles.container}>
-      <h1 className="sectionTitle">Skills</h1>  
+      <h1 className="sectionTitle">Skills</h1>
       <div className={styles.SkillList}>
-         <SkillList src={checkMarkIcon} skill="HTML" />
-         <SkillList src={checkMarkIcon} skill="CSS" />
-         <SkillList src={checkMarkIcon} skill="python" />
-         <SkillList src={checkMarkIcon} skill="js" />
+        <SkillList src={checkMarkIcon} skill="HTML" />
+        <SkillList src={checkMarkIcon} skill="CSS" />
+        <SkillList src={checkMarkIcon} skill="JavaScript" />
+        <SkillList src={checkMarkIcon} skill="ReactJs" />
+        <SkillList src={checkMarkIcon} skill="bootstrap" />
       </div>
-      <hr/>
+      <hr />
       <div className={styles.SkillList}>
-         <SkillList src={checkMarkIcon} skill="react" />
-         <SkillList src={checkMarkIcon} skill="angular" />
-         <SkillList src={checkMarkIcon} skill="java" />
-         <SkillList src={checkMarkIcon} skill="c++" />
+        <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill="C" />
+        <SkillList src={checkMarkIcon} skill="C++" />
+        <SkillList src={checkMarkIcon} skill="Java" />
       </div>
-      <hr/>
+      <hr />
       <div className={styles.SkillList}>
-         <SkillList src={checkMarkIcon} skill="redux" />
-         <SkillList src={checkMarkIcon} skill="webpack" />
-         <SkillList src={checkMarkIcon} skill="git" />
-         <SkillList src={checkMarkIcon} skill="bootstrap++" />
+        <SkillList src={checkMarkIcon} skill="Laravel" />
+        <SkillList src={checkMarkIcon} skill="Flutter" />
+        <SkillList src={checkMarkIcon} skill="MySQL" />
+        <SkillList src={checkMarkIcon} skill="PostGreSQL" />
+        <SkillList src={checkMarkIcon} skill="WordPress" />
       </div>
+
     </section>
   )
 }
