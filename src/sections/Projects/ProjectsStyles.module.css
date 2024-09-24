@@ -4,6 +4,7 @@
   text-align: center;
 
   img {
+    mix-blend-mode: multiply;
     max-width: 250px;
     align-self: center;
     background-color: var(--project-card-bg);
